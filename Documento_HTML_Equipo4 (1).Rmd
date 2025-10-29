@@ -61,15 +61,13 @@ Velazquez Rivera Gael Jesus
 **📚 Licenciatura en Ecología**\
 **🏛️ Facultad de Estudios Superiores Iztacala**\
 **📅 28 de octubre de 2025**\
-**🏛link para ver el video**\
-https://drive.google.com/file/d/1LLPbbR-gxUx6NAFf5mXr_PdCaZ606Zd1/view?usp=sharing
-
+📼**link para ver el video**\
+<https://drive.google.com/file/d/12vHC2OdhU-5u1UZAcsxj1Y9lSoeWIkdx/view?usp=drive_link>
 :::
-
 
 ------------------------------------------------------------------------
 
-#  **Introducción**
+# **Introducción**
 
 La distribución espacial de los mamíferos marinos es un componente clave para comprender su ecología, comportamiento y vulnerabilidad ante el cambio ambiental. En particular, *Phoca vitulina* y su subespecie *Phoca vitulina richardii* presentan patrones de ocurrencia estrechamente ligados a zonas costeras de baja altitud, lo que las convierte en bioindicadores sensibles de la salud de los ecosistemas marinos (Morales, 2014). Estudiar su presencia en distintas regiones de América del Norte permite identificar áreas críticas de conservación, evaluar desplazamientos poblacionales y anticipar respuestas ecológicas ante presiones antropogénicas. (Nuche, 2012).\
 \
@@ -81,11 +79,11 @@ La creciente disponibilidad de datos abiertos sobre biodiversidad exige métodos
 
 Por lo tanto, el presente trabajo tiene como objetivo examinar la distribución geográfica y altitudinal de *Phoca vitulina* y la subespecie *P. v*. *richardii* en América del Norte entre 2007 y 2024, utilizando herramientas de visualización y análisis espacial en R, evaluando su relación con variables climáticas clave con el fin de identificar patrones ecológicos relevantes y contribuir al diseño de estrategias de conservación basadas en evidencia.
 
-##  **Pregunta de investigación**
+## **Pregunta de investigación**
 
 ¿Existen diferencias en las condiciones bioclimáticas de los sitios donde se registran Phoca vitulina y Phoca vitulina richardii en Norte América?
 
-##  **Variables a considerar**
+## **Variables a considerar**
 
 **GBIF:**
 
@@ -105,7 +103,7 @@ Una ocurrencia es la evidencia de que una especie (u otro taxón) estaba en un l
 
 ------------------------------------------------------------------------
 
-#  Bases de datos
+# Bases de datos
 
 Para la realización de este proyecto se utilizaron dos fuentes principales:
 
@@ -444,11 +442,11 @@ df_env <- bind_rows(foca1_NorteA_env, foca2_NorteA_env)
     )
     ```
 
-#  **Mapas**
+# **Mapas**
 
 A continuación se presentan los mapas del sitio de estudio y la distribución de las especies seleccionadas
 
-##  Mapa de sitio de estudio
+## Mapa de sitio de estudio
 
 ```{r}
 mapa_NA_occ <- ggplot() +
